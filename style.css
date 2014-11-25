@@ -1,0 +1,22 @@
+body
+{
+	font-family:Cambria;
+	background:url(file:///Users/Kirthi/Desktop/nice.jpg);
+	background-size: cover;
+	color:#660000;
+}
+
+h2
+{
+	font-family:Book Antiqua;
+	font-weight: bold;
+	font-size: 280%;
+    color:#993366;
+
+}
+
+.jumbotron
+{
+	background-image:url(file:///Users/Kirthi/Desktop/nice.jpg);
+	background-size:cover;
+}
