@@ -1,7 +1,7 @@
 body
 {
 	font-family:Cambria;
-	background:url(file:///Users/Kirthi/Desktop/nice.jpg);
+	background:url('nice.jpg');
 	background-size: cover;
 	color:#660000;
 }
@@ -17,6 +17,6 @@ h2
 
 .jumbotron
 {
-	background-image:url(file:///Users/Kirthi/Desktop/nice.jpg);
+	background-image:url('nice.jpg');
 	background-size:cover;
 }
