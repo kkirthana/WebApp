@@ -57,7 +57,7 @@
 
                 <li role="presentation"><a href="Tools.html" role="menuitem" tabindex="-1">Git Hub</a></li>
 
-                <li role="presentation"><a href="Tools.html" role="menuitem" tabindex="-1">Nagios</a></li>
+                <li role="presentation"><a href="Tools.html" role="menuitem" tabindex="-1">jmeter</a></li>
               </ul></li>
 
 
@@ -86,7 +86,7 @@ Most of the organizations are trying to enhance the latency in time to market an
 
 <div style="text-indent:23px;">Though there is a trade off between scalability, cost of infrastructure and security for private clouds, building a private cloud is a one-time investment. Organizations can definitely cut down large bills over the time by switching to private clouds. Private clouds can host dedicated production environments and that can be used as a staging environment. On the other hand, AWS can be used for production environment. Eucalyptus claims to be similar to AWS, which can be made to work in conjunction with AWS, by testing applications on Eucalyptus first and then deploying them on AWS. For organizations that are willing to switch to public clouds, using Eucalyptus for testing will prove to be an effective way to cut down costs on testing rather using AWS.<br>
  
-<div style="text-indent:23px;">So, certain tools will be employed in this project to deploy an application automatically on Apache tomcat to test the performance of that application over AWS and eucalyptus clouds to validate if eucalyptus cloud can replace AWS in an effective manner as eucalyptus mimics AWS's implementation. 
+<div style="text-indent:23px;">So, certain tools will be employed in this project to deploy an application automatically on Apache Web Server to test the performance of that application over AWS and eucalyptus clouds to validate if eucalyptus cloud can replace AWS in an effective manner as eucalyptus mimics AWS's implementation. 
 
 </blockquote>
 </section>
@@ -106,7 +106,7 @@ Most of the organizations are trying to enhance the latency in time to market an
         
         <div style="text-indent:23px;">Traditional systems management tools have not kept pace with the market dynamics. Conventional approaches to managing large numbers of systems create inconsistencies and mistakes. The real cost is not the time and money spent managing the sprawling configurations, but in the outages caused by mistakes and opportunities precluded by insufficient change management processes. These Legacy tools simply cannot handle the scale and complexity of application lifecycle management in the cloud.<br>
 
-        <div style="text-indent:23px;">The recent developments in cloud technology have inspired many organizations to host their services on cloud than to invest in conventional IT infrastructure. With the various types of clouds available, it becomes vital for any developer or an organization to choose the right cloud infrastructure that suits its needs and to monitor the company’s performance with industry benchmarks. The aim of this project is to compare the performance of private cloud (Eucalyptus) over a public cloud (AWS) in order to identify the best cloud to automate the process of deploying an application. The performance of an application running on Apache tomcat will be measured with Apache Jmeter by simulating a heavy load on a server, network or object to analyze overall performance under different load types. By using Nagios (monitoring tool) the performance of the clouds will be assessed. 
+        <div style="text-indent:23px;">The recent developments in cloud technology have inspired many organizations to host their services on cloud than to invest in conventional IT infrastructure. With the various types of clouds available, it becomes vital for any developer or an organization to choose the right cloud infrastructure that suits its needs and to monitor the company’s performance with industry benchmarks. The aim of this project is to compare the performance of private cloud (Eucalyptus) over a public cloud (AWS) in order to identify the best cloud to automate the process of deploying an application. The performance of an application running on Apache web server will be measured with Apache Jmeter by simulating a heavy load on a server, network or object to analyze overall performance under different load types. 
 
      </div>
 <div>
@@ -187,13 +187,13 @@ Most of the organizations are trying to enhance the latency in time to market an
 
           <div class="panel panel-default">
       <div class="panel-heading">
-        <h5 class="panel-title"><a href="#collapse-7" data-toggle="collapse" date-parent="#accordian">Nagios</a></h5>
+        <h5 class="panel-title"><a href="#collapse-7" data-toggle="collapse" date-parent="#accordian">jmeter</a></h5>
 
       <div class="panel-collapse collapse " id="collapse-7">
         <div class="panel-body">
-          <p> Nagios offers monitoring and alerting services for servers, switches, applications, and services. It alerts the users when things go wrong and alerts them a second time when the problem has been resolved.
-
-          Nagios, originally created under the name NetSaint, was written and is currently maintained by Ethan Galstad along with a group of developers who are actively maintaining both the official and unofficial plugins. Nagios is a recursive acronym: "Nagios Ain't Gonna Insist On Sainthood",[3] 'Sainthood' being a reference to the original name NetSaint, which was changed in response to a legal challenge by owners of a similar trademark.[4] 'Agios' is also a transliteration of the Greek word άγιος which means 'saint'.</p></div></div></div></div>
+          <p>
+Apache JMeter may be used to test performance both on static and dynamic resources (Files, Web dynamic languages - PHP, Java, ASP.NET, etc. -, Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, group of servers, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load. 
+    .</p></div></div></div></div>
 
 
 </div>
@@ -218,7 +218,7 @@ Most of the organizations are trying to enhance the latency in time to market an
       <h4><b>Deployment phase</b></h4>
         <ol>
           <li>Build a web application</li>
-          <li>Build a stack ( Apache Web Server + Nagios ) </li>
+          <li>Build a stack ( Apache Web Server + Web App ) </li>
           <li>Create instances on AWS and Eucalytpus</li>
           <li>Build a script to automate the process</li>
         </ol>
@@ -231,7 +231,7 @@ Most of the organizations are trying to enhance the latency in time to market an
                   <li>Resource Utilization</li>
                   <li>Health Check</li></ul>
           </li>
-          <li>Nagios – Monitoring tool to alert the users</li>
+     
 
     </div>
     <div class="col-lg-6">
@@ -309,7 +309,7 @@ Most of the organizations are trying to enhance the latency in time to market an
 
 <li><a href="https://github.com/about">www.github.com</a></li>
 
-<li><a href="http://www.nagios.org/about">www.nagios.org</a></li>
+<li><a href="http://www.jmeter.apache.org">www.jmeter.org</a></li>
 
 
 </blockquote>
